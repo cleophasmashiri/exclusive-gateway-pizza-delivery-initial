@@ -28,7 +28,7 @@ public class ExclusiveGatewayPizzaDeliveryTest extends JbpmJUnitBaseTestCase {
 
     @Before
     public void setup() { 
-        createRuntimeManager("com/myspace/jbpm_elements_katas/ExclusiveGatewayPizzaDelivery.bpmn");
+        createRuntimeManager("com/myspace/exclusive_gateway_pizza_delivery_initial/ExclusiveGatewayPizzaDelivery.bpmn");
         engine = getRuntimeEngine(EmptyContext.get());
         kieSession = engine.getKieSession();
     }
